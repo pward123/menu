@@ -106,6 +106,8 @@ function render(container) {
     mode: 'horizontal',
     // use openTransition for antd
     openAnimation: 'slide-up',
+    openSubMenuOnMouseEnter : false,
+    closeSubMenuOnMouseLeave: false,
   });
 
   const horizontalMenu2 = React.cloneElement(commonMenu, {
